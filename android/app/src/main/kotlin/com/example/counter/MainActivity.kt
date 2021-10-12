@@ -1,4 +1,4 @@
-package com.example.counter
+package com.example.fb_home_page
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,4 +1,3 @@
-import 'package:fb_home_page/Widgets/appbar.dart';
 import 'package:flutter/material.dart';
 import 'Widgets/smallButtons.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -46,13 +45,13 @@ class _MyHomePageState extends State<MyHomePage> {
               width: 12,
               height: 12,
               decoration:
-                  BoxDecoration(color: Colors.white, shape: BoxShape.circle),
+                  const BoxDecoration(color: Colors.white, shape: BoxShape.circle),
               child: Center(
                 child: Container(
                   width: 10,
                   height: 10,
                   decoration:
-                      BoxDecoration(color: Colors.red, shape: BoxShape.circle),
+                      const BoxDecoration(color: Colors.red, shape: BoxShape.circle),
                 ),
               ),
             ),
@@ -76,13 +75,13 @@ class _MyHomePageState extends State<MyHomePage> {
               width: 12,
               height: 12,
               decoration:
-                  BoxDecoration(color: Colors.white, shape: BoxShape.circle),
+                  const BoxDecoration(color: Colors.white, shape: BoxShape.circle),
               child: Center(
                 child: Container(
                   width: 10,
                   height: 10,
                   decoration:
-                      BoxDecoration(color: Colors.red, shape: BoxShape.circle),
+                      const BoxDecoration(color: Colors.red, shape: BoxShape.circle),
                 ),
               ),
             ),
@@ -133,7 +132,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Container(
                 height: 150,
                 width: size.width,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                     color: Color(0xff232935),
                     borderRadius: BorderRadius.only(
                       bottomLeft: Radius.circular(15),
@@ -141,7 +140,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     )),
                 child: Column(
                   children: [
-                    Padding(
+                    const Padding(
                       padding: EdgeInsets.fromLTRB(10.0, 0, 10.0, 0),
                       child: Divider(
                         color: Color(0xff4f4f4f),
@@ -153,8 +152,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: Row(
                         children: [
                           Image.asset('assets/images/pic.png'),
-                          Padding(
-                            padding: const EdgeInsets.only(left: 20.0),
+                          const Padding(
+                            padding: EdgeInsets.only(left: 20.0),
                             child: Text(
                               '¿Qué estas pensando, Mao?',
                               style: TextStyle(
@@ -163,14 +162,14 @@ class _MyHomePageState extends State<MyHomePage> {
                               ),
                             ),
                           ),
-                          Spacer(),
+                          const Spacer(),
                           Image.asset(
                             'assets/images/smile.png',
                           ),
                         ],
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 16,
                     ),
                     Row(
@@ -193,13 +192,13 @@ class _MyHomePageState extends State<MyHomePage> {
                   ],
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 30,
               ),
               Container(
                 width: size.width,
                 height: size.height,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                     color: Color(0xff232935),
                     borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(15),
@@ -209,8 +208,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   children: [
                     Row(
                       children: [
-                        Padding(
-                          padding: const EdgeInsets.all(30.0),
+                        const Padding(
+                          padding: EdgeInsets.all(30.0),
                           child: Text(
                             'Menú',
                             style: TextStyle(
@@ -219,7 +218,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 fontSize: 25),
                           ),
                         ),
-                        Spacer(),
+                        const Spacer(),
                         Padding(
                           padding: const EdgeInsets.only(right: 30.0),
                           child: Image.asset(
@@ -229,7 +228,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                       ],
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 20,
                     ),
                     Row(
@@ -249,7 +248,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             image: 'assets/images/help.png'),
                       ],
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 30,
                     ),
                     Row(
